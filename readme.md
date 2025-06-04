@@ -132,8 +132,7 @@ mtailor_mlops_assessment/
 
 ## Important Notes
 
-*   **API Key Security:** Do not hardcode your Cerebrium API key directly into scripts you commit to public repositories. Use environment variables or secure configuration methods.
 *   **Error Handling:** The provided scripts include basic error handling. Robust production deployments would require more comprehensive logging and error management.
-*   **Preprocessing:** Ensure the preprocessing steps in `model.py` (used by `test.py`) and `main.py` (used in the API) exactly match the steps the original PyTorch model was trained with.
+*   **Preprocessing:** Preprocessing steps in `model.py` (used by `test.py`) and `main.py` (used in the API) exactly match the steps the original PyTorch model was trained with.
 *   **Cerebrium Configuration:** Refer to the official Cerebrium documentation for the most up-to-date details on custom Docker deployments, environment variables, health checks, and scaling.
 
